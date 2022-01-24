@@ -65,7 +65,7 @@ let Setflag=(e)=>{
         <Container>
         <Box>
         <TextField name='searchText' label="Search Here" variant="outlined"  onChange={event => setTitle(event.target.value)} />
-        <NavLink to={`/students/search/${serchText}`}><Button variant='contained' onClick={Setflag} color="primary">SEARCH</Button></NavLink>
+        <NavLink to={`/students/search/${serchText}`}><Button variant='contained' onClick={Setflag} color="primary" className='searchbtn'>SEARCH</Button></NavLink>
         </Box>
         <table border="2">
             <TableHead></TableHead>
