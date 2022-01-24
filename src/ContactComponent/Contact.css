@@ -1,0 +1,27 @@
+.mycontactstyle{
+    background-color: rgb(110, 99, 110);
+}
+.mycontactus>h1{
+    font-size: 30px;
+}
+.mycontactus{
+    text-align: center;
+    color: rgb(24, 224, 231);
+    font-weight: bold;
+    background-color: rgb(110, 99, 110);
+   
+    padding: 10px;
+}
+.contactdet{
+    color: rgb(49, 207, 83);
+    font-size: 20px;
+}
+.contactdet h2,h3,h4{
+    margin: 0px;
+}
+.conts{
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}

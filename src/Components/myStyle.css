@@ -1,0 +1,49 @@
+
+table{
+  width: 90%;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+
+}
+.studentth>th {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #121412;
+    color: white;
+    font-size: larger;
+  }
+  .studentBody>tr{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: larger;
+  }
+  .addStudentStyle{
+      display: flex;
+      padding: 30px;
+     
+  }
+  
+  .myformStyle{
+      width: 600px;
+      height: 415px;
+      background-color: rgb(209, 184, 141);
+      border-radius: 5px;
+      padding-top: 20px;
+      
+  }
+  .myformStylelogo{
+       
+        width: 500px;
+        height: 360px;
+        border-radius: 5px;
+  }
+
+
+
