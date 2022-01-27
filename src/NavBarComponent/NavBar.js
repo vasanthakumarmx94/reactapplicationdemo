@@ -24,12 +24,12 @@ export function NavBar() {
                     </Typography>
                     <Box ml={5} mr={5}>
                         <ButtonGroup variant="contained" aria-label="outlined primary button group" margin-left="40px">
-                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink to="#" className="linksstyle">Home</NavLink></Button></Box>
-                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink to="/students/showall" className="linksstyle">SHOW STUDENT</NavLink></Button></Box>
-                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink to="/students/addStudent" className="linksstyle">ADD STUDENT</NavLink></Button></Box>
+                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink activeClassName='is-active' to="#" className="linksstyle" >Home</NavLink></Button></Box>
+                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink activeClassName='is-active' to="/students/showall" className="linksstyle">SHOW STUDENT</NavLink></Button></Box>
+                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink activeClassName='is-active' to="/students/addStudent" className="linksstyle">ADD STUDENT</NavLink></Button></Box>
                             
-                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink to="/students/Contact" className="linksstyle">Contact Us</NavLink></Button></Box>
-                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink to="#" className="linksstyle">Profile</NavLink></Button></Box>
+                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink activeClassName='is-active' to="/students/Contact" className="linksstyle">Contact Us</NavLink></Button></Box>
+                            <Box ml={2} mr={5} mt={2} mb={1}><Button variant="contained"><NavLink activeClassName='is-active' to="#" className="linksstyle">Profile</NavLink></Button></Box>
 
                         </ButtonGroup></Box>
                 </Toolbar>

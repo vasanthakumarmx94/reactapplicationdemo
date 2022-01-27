@@ -1,11 +1,12 @@
 
 .myblock{
-    width: 400px;
+    width: 300px;
     margin: 20px;
     padding: 10px;
     background-color: navajowhite;
     border-radius: 5px;
     text-align: center;
+    border: 2px solid green;
 }
 .myAbout{
     display: flex;
